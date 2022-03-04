@@ -1,0 +1,11 @@
+print('Digite o seu nome completo : ')
+nome = str(input())
+comp = len(nome) - nome.count(' ')
+pnome = len(nome[0:nome.find(' ')])
+
+print(f'O seu nome todo em letras MAIÚSCULA :\n{nome.upper()}')
+print(f'O seu nome todo em letras minúscula :\n{nome.lower()}')
+print(f'O seu nome possui {comp} letras')
+print(f'Seu primeiro nome tem {pnome} letras')
+#l = nome.split()
+#print(len(l[0]))
